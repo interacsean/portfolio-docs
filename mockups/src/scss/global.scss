@@ -1,0 +1,29 @@
+@import '_reset.scss';
+@import '_common.scss';
+@import '_fonts.scss';
+
+#mockup-disclaimer{
+   position: absolute;
+   top: 1em;
+   left: 1.67em; right: 1.67em;
+   padding: 0.67em 1em;
+   z-index: 5;
+
+   background-color: #FFEAD5;
+
+   >.button.-close{
+      font-size: 1.25em;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      display: block;
+      width: 1em; height: 1em;
+
+      border-radius: 0.5em;
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+   }
+}

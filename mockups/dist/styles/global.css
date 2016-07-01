@@ -1,0 +1,48 @@
+/* CSS Mini Reset */
+html, body, div, form, fieldset, legend, label {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th, td {
+  text-align: left;
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6, th, td, caption {
+  font-weight: normal; }
+
+img {
+  border: 0; }
+
+/* end: CSS Mini Reset */
+html, body, div, form {
+  box-sizing: border-box; }
+
+body {
+  font-family: Verdana, sans-serif; }
+
+#mockup-disclaimer {
+  position: absolute;
+  top: 1em;
+  left: 1.67em;
+  right: 1.67em;
+  padding: 0.67em 1em;
+  z-index: 5;
+  background-color: #FFEAD5; }
+  #mockup-disclaimer > .button.-close {
+    font-size: 1.25em;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.5em;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer; }
